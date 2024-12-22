@@ -1,0 +1,2 @@
+# NxtGen
+Bootstrap NextJs apps
