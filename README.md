@@ -77,6 +77,32 @@ We can go beyond color schemes and also handle other UI/UX areas like typography
 
 ## Layouts
 
+To use a layout for the app:
+
+```bash
+nextgen use layout --name=navbar-and-sidebar
+```
+
+To use a layout for a page:
+
+```bash
+nextgen use layout --name=navbar-only --pages=privacy,terms,settings
+```
+
 ## Pages
+
+To add a page:
+
+```bash
+nextgen add page --name=settings --path="/settings" --template=simple-settings-page
+```
+
+To have the page designed by AI:
+
+```bash
+nextgen add page --name=privacy --path="/privacy" --prompt="A simple privacy policy page for a hospital management system"
+```
+
+It should be possible to delete a page
 
 ## Features
