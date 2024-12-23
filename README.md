@@ -31,6 +31,50 @@ nextgen create app my-app --template=hospital-management-system --features=notif
 
 ## Color Scheme
 
+We can have CSS class names in the form of `navbar-bg`, `navbar-color`, `page-bg`, `page-color`, `footer-bg`, `footer-color`, etc.
+
+This way, a color scheme boils down to providing values for these class names.
+
+A color scheme may come in the following modes: light, dark, and system.
+
+It should be possible to add a color scheme.
+
+```bash
+nextgen add scheme metallic-gray
+```
+
+It should be possible to set a color scheme as the current scheme.
+
+```bash
+nextgen use scheme metallic-gray
+```
+
+It should be possible to remove a color scheme
+
+```bash
+nextgen remove scheme metallic-gray
+```
+
+The system should handle the case where the current scheme is removed.
+
+It should be possible to set the value of a specific color in the current color scheme.
+
+```bash
+nextgen set color --name=navbar-bg --value=green
+```
+
+It should be possible to set the value of a specific color in a specified color scheme.
+
+```bash
+nextgen set color --name=navbar-bg --value=green --scheme=metallic-gray
+```
+
+It should be possible to add and remove colors.
+
+## Theme
+
+We can go beyond color schemes and also handle other UI/UX areas like typography, iconography, etc.
+
 ## Layouts
 
 ## Pages
