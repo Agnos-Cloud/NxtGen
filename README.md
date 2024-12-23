@@ -108,3 +108,15 @@ It should be possible to delete a page
 ## Features
 
 A feature is a collection of codes (components, context providers, hooks, etc.) that work together to provide a specific functionality/capability.
+
+## useApp
+
+There will be a special hook, say `useApp`, that will provide functions for handling schemes, themes, layouts, pages, features, etc. programmatically.
+
+```js
+import { useApp } from "...";
+// ...
+const { setLayout } = useApp();
+// ...
+setLayout("navbar-only");
+```
