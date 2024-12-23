@@ -106,3 +106,5 @@ nextgen add page --name=privacy --path="/privacy" --prompt="A simple privacy pol
 It should be possible to delete a page
 
 ## Features
+
+A feature is a collection of codes (components, context providers, hooks, etc.) that work together to provide a specific functionality/capability.
