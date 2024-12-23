@@ -109,6 +109,17 @@ It should be possible to delete a page
 
 A feature is a collection of codes (components, context providers, hooks, etc.) that work together to provide a specific functionality/capability.
 
+#### Implementation Details
+
+A feature will be installed into a folder named after the feature, inside the `features` folder.
+
+The system will keep track of all npm packages installed by a feature. (Maybe all other constructs, i.e. pages, themes, schemes, layouts, etc, should also be allowed to install npm packages.)
+When uninstalling a feature, it's npm packages (as long as they were directly installed by the feature and are not being used by any other feature/construct) will also be uninstalled.
+
+## Module
+
+A module allows us to package constructs (features, pages, layouts, etc) that ought to be installed and uninstalled together.
+
 ## useApp
 
 There will be a special hook, say `useApp`, that will provide functions for handling schemes, themes, layouts, pages, features, etc. programmatically.
