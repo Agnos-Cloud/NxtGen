@@ -131,3 +131,14 @@ const { setLayout } = useApp();
 // ...
 setLayout("navbar-only");
 ```
+
+## Tools & References
+
+- https://react.dev/
+- https://tailwindui.com/
+- https://www.npmjs.com/package/framer-motion
+- https://ui.shadcn.com/
+- https://ui.aceternity.com/
+- https://vercel.com/templates?framework=next.js
+  -----------
+- https://once-ui.com/
