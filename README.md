@@ -71,6 +71,8 @@ nextgen set color --name=navbar-bg --value=green --scheme=metallic-gray
 
 It should be possible to add and remove colors.
 
+See https://primer.style/foundations/primitives/color
+
 ## Theme
 
 We can go beyond color schemes and also handle other UI/UX areas like typography, iconography, etc.
@@ -143,3 +145,4 @@ setLayout("navbar-only");
   
   -----------
 - https://once-ui.com/
+- https://primer.style/foundations/primitives/color
