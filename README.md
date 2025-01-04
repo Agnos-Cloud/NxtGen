@@ -142,6 +142,7 @@ setLayout("navbar-only");
 - https://ui.shadcn.com/
 - https://ui.aceternity.com/
 - https://vercel.com/templates?framework=next.js
+- https://nextui.org/
   
   -----------
 - https://once-ui.com/
