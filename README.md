@@ -151,4 +151,4 @@ setLayout("navbar-only");
 
 ----------
 
-- https://documenter.getpostman.com/view/23391731/2sAXqzXe8j#909801b2-8567-4c77-a6de-5c88c2b92417
+- https://medium.com/@jan.hesters/how-to-set-up-next-js-15-for-production-in-2024-347f542922b4
